@@ -14,16 +14,4 @@ public class PrimeFactors {
         return primes;
     }
 
-    public static void main(String[] args) {
-        int num = 0;
-        for (;;) {
-
-            //DON"T DO THIS
-            if (num >= 10) {
-                break;
-            }
-            System.out.println(num);
-            num++;
-        }
-    }
 }
